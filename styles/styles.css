@@ -1,0 +1,812 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bodyindex {
+    background-image: url(https://img.freepik.com/foto-gratis/rastros-luz-sobre-edificios_1359-714.jpg?w=740&t=st=1660250209~exp=1660250809~hmac=2094534d4333edf7350a4bdc392ee846998921b4bd5058fc77e9b57dafc06131);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "article"
+    "main"
+    "footer";
+    grid-template-rows: 100px 90px 1fr 90px;
+    grid-template-columns: 1fr;
+    height: 100vh;
+}
+   
+
+.headerindex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(12, 12, 12, 0.633);
+    padding: 50px;
+    color: rgb(253, 251, 247);
+    grid-area: header;
+}
+.logoi{
+   
+    width: 100px;
+    height: 90px;
+    border-radius: 100px;
+}    
+    
+
+
+.tituloblanco{
+    font-size: 35px;
+    font-family: 'Cormorant SC', serif ;
+   
+}
+
+
+
+.navindex{
+    display: none;
+    text-decoration: none;
+    color: rgb(250, 245, 237);
+    padding: 05px;
+    font-size: 13px;
+}
+.navindex:hover{
+    color: rgb(230, 10, 10);
+    padding: 8px;
+
+}    
+
+   
+.sinpuntos{
+    
+    list-style: none;
+    display: flex;
+}
+
+
+    
+.artindex{
+    color: rgb(251, 253, 254);
+    /* background-color: rgba(20, 20, 24, 0.765); */
+    padding: 25px;
+    display: flex;
+    font-family: 'Cormorant SC', serif ;
+    font-size: 25px;
+    justify-content: center;
+    grid-area: article;
+}
+   
+    
+.resaltar{
+   
+    font-size: 30px;
+    color: rgb(254, 254, 254);
+    
+}
+    
+
+.imgindex{
+    grid-area: main;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    
+}
+.redesinicio{
+    border: 05px solid rgb(5, 5, 5);
+    border-radius: 100px; 
+    width: 150px;
+    height: 150px;
+}
+
+.footerindex{
+    background-color: rgba(6, 6, 6, 0.798);
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    grid-area: footer;
+}
+.pieindex{
+    color: rgb(251, 251, 250);
+    font-size: 15px;
+    font-family: 'Cormorant SC', serif ;
+    
+    font-weight: 900;  
+}
+
+@media screen and ( min-width: 1100px) {
+    .bodyindex {
+        background-image: url(https://img.freepik.com/foto-gratis/rastros-luz-sobre-edificios_1359-714.jpg?w=740&t=st=1660250209~exp=1660250809~hmac=2094534d4333edf7350a4bdc392ee846998921b4bd5058fc77e9b57dafc06131);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
+        
+        grid-template-areas:
+        "header  header header"
+        "article article article"
+        "main main main"
+        "footer footer footer";
+        grid-template-rows: 90px 90px 1fr 90px;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 100vh;
+        
+    }
+    .navindex{
+        display: flex;
+       
+    }
+
+    
+}
+ 
+    
+    
+
+/* productos */
+
+
+
+
+.bodyproductos{
+    /* background-image: url(https://img.freepik.com/foto-gratis/fondo-imagen-brillo-patron-cielo-estrellado-purpura_53876-104751.jpg?w=740&t=st=1660413307~exp=1660413907~hmac=97bd22df2c7b50a6f2ce83aeb50cbe3956a51dc376f4e15ee20501ccc2a5d6a1); */
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-formas-blancas_79603-1362.jpg?w=740&t=st=1660414600~exp=1660415200~hmac=0a95fbbf52f10c2f343cf36446ae106f6250801022f74a05ceca636cf681b07b) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: grid;
+    grid-template-areas:
+    "hproductos"
+    "aproductos "
+    "asproductos"
+    "garantia"
+    "pieproductos";
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(5, 1fr);
+    height: 100vh;
+
+}
+    
+   
+
+
+
+
+.hproductos{
+    grid-area: hproductos;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(16, 15, 15);
+}
+.logop{
+    width: 100px;
+    height: 90px;
+    border-radius: 100px;
+}
+   
+    
+.tituloproductos{
+    display: flex;
+    color: rgb(252, 252, 247);
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.pie2{
+    display: flex;
+    list-style: none;
+}
+
+
+.barra2{
+    display: none;
+    text-decoration: none;
+    color: rgb(250, 245, 237);
+    padding: 05px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.barra2:hover{
+    color: rgb(230, 10, 10);
+    padding: 8px;
+}       
+   
+
+.aproductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: aproductos;
+}
+    
+.colornegro{
+    color: rgb(7, 6, 6);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.asproductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: asproductos;
+}
+.imgproductos{
+    width: 150px;
+    height: 150px;
+    padding: 07px;
+    border-radius: 20px;
+}
+
+
+.garantia{
+    grid-area: garantia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#parra2{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pieproductos{
+    display: flex;
+    justify-content: left;
+    grid-area: pieproductos;
+}
+.fproductos{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+@media screen and ( min-width: 1100px ){
+    .bodyproductos{
+        /* background-image: url(https://img.freepik.com/foto-gratis/fondo-imagen-brillo-patron-cielo-estrellado-purpura_53876-104751.jpg?w=740&t=st=1660413307~exp=1660413907~hmac=97bd22df2c7b50a6f2ce83aeb50cbe3956a51dc376f4e15ee20501ccc2a5d6a1); */
+        background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-formas-blancas_79603-1362.jpg?w=740&t=st=1660414600~exp=1660415200~hmac=0a95fbbf52f10c2f343cf36446ae106f6250801022f74a05ceca636cf681b07b) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
+        display: grid;
+        grid-template-areas:
+        "hproductos hproductos hproductos"
+        "aproductos aproductos aproductos"
+        "asproductos asproductos asproductos"
+        "garantia garantia garantia"
+        "pieproductos pieproductos pieproductos";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:repeat(1fr);
+        height: 100vh;
+    
+    }
+    .barra2{
+        display: flex;
+    }
+    .imgproductos{
+        width: 250px;
+        height: 250px;
+        padding: 07px;
+        border-radius: 20px;
+    }
+    .tituloproductos{
+        font-size: 45px;
+    }
+    .logop{
+        width: 150px;
+    height: 110px;
+    border-radius: 100px;
+
+    }
+    .barra2{
+        font-size: 25px;
+    }
+
+    
+}
+
+
+
+
+/* f.envio */
+
+.colorfe{
+  
+    background-image: url(https://img.freepik.com/foto-gratis/textura-pared-estuco-azul-marino-relieve-decorativo-abstracto-grunge-fondo-color-rugoso-gran-angular_1258-28311.jpg?w=996&t=st=1659247078~exp=1659247678~hmac=77da7156a797187af4ce843732ec86e487ac1a9bb263ed6268a7452a9f475c3d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    
+   
+}
+
+.titulofm{
+    background-color: rgba(14, 13, 13, 0.966);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: underline;
+    font-size: 45px;
+    color: rgb(245, 240, 240);
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+.barrafm{
+    display: inline;
+    position: relative;
+    left: 700px;
+    bottom: 70px;
+}
+.icono{
+    color: rgb(223, 20, 20);
+    height: 60px;
+    position: relative;
+    left: 1250px;
+    bottom: 550px;
+    position: fixed;
+}
+   
+   
+
+    
+    
+
+.barra3{
+    color: rgb(250, 248, 248);
+    font-size: 25px;
+    font-weight: 800;
+    padding: 07px;
+    
+}
+
+table{
+    color: rgb(248, 241, 241);
+    background-color: rgb(8, 8, 8);
+    font-size: 40px;
+    border: 10px solid rgb(253, 244, 244);
+    position: relative;
+    left: 350px;
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+    top: 130px;
+}
+
+tr{
+    border: 10px solid rgb(247, 244, 232);
+    border-radius: 15px;
+}
+    
+    
+
+.moto{
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+    border-radius: 25px;
+    border: 10px solid rgb(19, 19, 18);
+}
+
+.camioneta{
+    position: relative;
+    left: 740px;
+    bottom: 200px;
+    border-radius: 25px;
+    border: 10px solid rgb(19, 19, 18);
+}
+
+.pdeenvios{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: rgb(15, 15, 15);
+    color: rgb(253, 250, 245);
+    position: relative;
+    bottom: 50px;
+    border-radius: 15px;
+}
+
+.rojofm{
+    color: rgb(231, 53, 53);
+    font-size: 40px;
+}
+
+
+.textofm{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    background-color: rgb(12, 12, 12);
+    color: rgb(253, 245, 234);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+/* formas de pago */
+
+
+.fdepago{
+   background-image: url(https://img.freepik.com/foto-gratis/amanecer_74190-169.jpg?w=740&t=st=1659281277~exp=1659281877~hmac=86d9fa64cf0902919427e0d440796fff32a6e111d8950ac59c59b44ee280d313);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: left center;
+}
+
+.titulofdp{
+    background-color: rgba(84, 84, 243, 0.568);
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.piefdp{
+    font-size: 25px;
+}
+
+.barra4{
+    color: rgb(22, 22, 22);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 07px;
+    font-weight: 800;
+}
+
+.fdp{
+    color: rgb(8, 8, 8);
+    font-size: 50px;
+    position: relative;
+    bottom: 250px;
+}
+
+.tarjeta{
+    position: relative;
+    left: 850px;
+    top: 150px;
+
+}
+
+
+.fondocontacto{
+    background-color: aquamarine;
+  
+
+}
+
+ /* contacto */
+
+.fondocont{
+    background-image: url(https://img.freepik.com/foto-gratis/joven-operador-auriculares_329181-8854.jpg?w=740&t=st=1659324930~exp=1659325530~hmac=373ce2a36910c01daef9879cb3ab0ae976e457442317892760132cc1bf6b886f);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}  
+
+.cont{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 55px;
+    color: rgb(55, 109, 5);
+    
+    
+   
+}
+
+.indice{
+    
+    padding: 05px;
+    font-size: 17px;
+    border: 3px solid rgb(22, 21, 21);
+    border-radius: 15px;
+    color: rgb(12, 11, 11);
+    background-color: rgb(248, 252, 252);
+    position: relative;
+    left: 900px;
+    bottom: 70px;
+}
+
+fieldset{
+    border: 05px solid rgba(66, 65, 65, 0.281);
+    width: 50%;
+}
+
+label{
+    color: rgb(7, 7, 7);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20PX;
+
+}
+ .final{
+    text-align: center;
+    font-size: 35px;
+   
+
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ /* section{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    grid-template-rows: 50px 300px 200px;
+    border: 05px solid rgb(7, 7, 7);
+ }
+
+ div{
+    border: 05px solid crimson;
+ }  */
+
+ /* .grid{
+    display: grid;
+    grid-template-areas: 
+    "header header nav"
+    "productos productos nav"
+    "servicios servicios publicidad"
+    "footer footer footer";
+    grid-template-rows: 80px 1fr 1fr 80px;
+    grid-template-columns: 20% auto 15%;
+    height: 100vh;
+    column-gap: 10px;
+    row-gap: 10px;
+
+ }
+
+ .border{
+    border: 02px solid;
+ }
+
+ header{
+    grid-area: header;
+    background-color: blue;
+ }
+
+ nav{
+    grid-area: nav;
+    background-color: aqua;
+ }
+ footer{
+    background-color: yellow ;
+    grid-area: footer;
+ }
+ 
+ #productos{
+    background-color: rgb(28, 230, 163);
+    grid-area: productos;
+ }
+
+ #servicios{
+    background-color: blueviolet;
+    grid-area: servicios;
+ }
+ aside{
+    background-color: rgb(240, 104, 7);
+    grid-area: publicidad;
+ } */
+ 
+    
+  
+
+
+    
+
+
+    
+    
+    
+
+    
+    
+     
+
+
+   
+
+
+   
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+ 
+
+
+
+    
+    
+
+   
+   
+
+
+
+
+    
+
+
+
+    
+    
+
+
+       
+
+    
+
+
+    
+
+   
+    
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+ 
+    
+    
+     
+    
+
+        
+    
+        
+        
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+   
+   
+
+
+   
+
+
+    
+
+
+
+    
+    
+
+
+    
+
+
+
+   
+
+
+
+    
+
+    
+
+
+   
+
+
+  
+    
+   
+
+
+
+
+
+
+    
+        
+    
+
+
+    
+    
+
+
+
+
+
+    
+
+
+ 
+    
+
+
+
+   
+    
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+   
+
+
+
+
+
+
+    
+    
+
+
