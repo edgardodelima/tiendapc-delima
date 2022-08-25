@@ -528,7 +528,25 @@ label{
    
 
     font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+ 
+    
+    
+
+ .colortitulo6{
+    background-color: rgb(139, 139, 245);
+    padding: 15px;
+    color: rgb(10, 10, 10);
+   
  }
+ .font{
+    color: rgb(12, 11, 11);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+ }
+ 
 
  /* section{
     display: grid;
