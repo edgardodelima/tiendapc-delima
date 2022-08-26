@@ -528,84 +528,14 @@ label{
    
 
     font-family: 'Source Sans Pro', sans-serif;
-
+}
+.cambiarfont{
+   color: blue;
+   
+    
 }
 
- 
-    
-    
 
- .colortitulo6{
-    background-color: rgb(139, 139, 245);
-    padding: 15px;
-    color: rgb(10, 10, 10);
-   
- }
- .font{
-    color: rgb(12, 11, 11);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
- }
- 
-
- /* section{
-    display: grid;
-    grid-template-columns: 300px 1fr 1fr;
-    grid-template-rows: 50px 300px 200px;
-    border: 05px solid rgb(7, 7, 7);
- }
-
- div{
-    border: 05px solid crimson;
- }  */
-
- /* .grid{
-    display: grid;
-    grid-template-areas: 
-    "header header nav"
-    "productos productos nav"
-    "servicios servicios publicidad"
-    "footer footer footer";
-    grid-template-rows: 80px 1fr 1fr 80px;
-    grid-template-columns: 20% auto 15%;
-    height: 100vh;
-    column-gap: 10px;
-    row-gap: 10px;
-
- }
-
- .border{
-    border: 02px solid;
- }
-
- header{
-    grid-area: header;
-    background-color: blue;
- }
-
- nav{
-    grid-area: nav;
-    background-color: aqua;
- }
- footer{
-    background-color: yellow ;
-    grid-area: footer;
- }
- 
- #productos{
-    background-color: rgb(28, 230, 163);
-    grid-area: productos;
- }
-
- #servicios{
-    background-color: blueviolet;
-    grid-area: servicios;
- }
- aside{
-    background-color: rgb(240, 104, 7);
-    grid-area: publicidad;
- } */
- 
     
   
 
