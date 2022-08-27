@@ -528,18 +528,55 @@ label{
    
 
     font-family: 'Source Sans Pro', sans-serif;
-}
-.cambiarfont{
-   color: blue;
+ }
+ /* bootstrap */
+ .nuevo{
+    padding: 0;
+    margin: 0;
+ }
+ 
+
+
+ 
+ .font1{
+    color: rgb(221, 213, 213);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+ }
+ .font2{
+    color: rgb(231, 223, 223);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+ }
+ .font2:hover{
+    color: rgb(240, 10, 10);
+    padding: 7px;
+ }
+
+
+ .barra6{
+    background-image: linear-gradient(to bottom, rgb(7, 6, 6),rgb(46, 45, 45),rgb(68, 6, 6),rgb(116, 6, 11));
    
+ }
+ .redes6{
+    padding: 5px;
+    color: rgb(245, 244, 244);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.redes6:hover{
+    color: rgb(238, 16, 16);
+}
+fondo6{
+    width: 100%;
+}
+
     
-}
-.barra6{
-    background-color: blue;
-}
-.nuevo{
-    background-color: aquamarine;
-}
+    
+
+
+ 
+   
+
 
     
   
