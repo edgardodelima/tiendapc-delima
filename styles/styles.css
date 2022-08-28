@@ -1,154 +1,48 @@
-* {
-    padding: 0;
-    margin: 0;
-}
 
-.bodyindex {
-    background-image: url(https://img.freepik.com/foto-gratis/rastros-luz-sobre-edificios_1359-714.jpg?w=740&t=st=1660250209~exp=1660250809~hmac=2094534d4333edf7350a4bdc392ee846998921b4bd5058fc77e9b57dafc06131);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left center;
-    display: grid;
-    grid-template-areas:
-    "header"
-    "article"
-    "main"
-    "footer";
-    grid-template-rows: 100px 90px 1fr 90px;
-    grid-template-columns: 1fr;
-    height: 100vh;
-}
-   
+/* inicio */
 
-.headerindex{
+.pindex1{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(12, 12, 12, 0.633);
-    padding: 50px;
-    color: rgb(253, 251, 247);
-    grid-area: header;
-}
-.logoi{
-   
-    width: 100px;
-    height: 90px;
-    border-radius: 100px;
-}    
-    
-
-
-.tituloblanco{
-    font-size: 35px;
-    font-family: 'Cormorant SC', serif ;
-   
+    flex-direction: column;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-
-.navindex{
-    display: none;
-    text-decoration: none;
-    color: rgb(250, 245, 237);
-    padding: 05px;
-    font-size: 13px;
-}
-.navindex:hover{
-    color: rgb(230, 10, 10);
-    padding: 8px;
-
-}    
-
-   
-.sinpuntos{
-    
-    list-style: none;
+.imgmain{
     display: flex;
-}
-
-
-    
-.artindex{
-    color: rgb(251, 253, 254);
-    /* background-color: rgba(20, 20, 24, 0.765); */
-    padding: 25px;
-    display: flex;
-    font-family: 'Cormorant SC', serif ;
-    font-size: 25px;
+    flex-direction: column;
+    flex-flow: row wrap;
     justify-content: center;
-    grid-area: article;
-}
-   
     
-.resaltar{
    
+}
+
+
+.img1index{
+    flex:1 1 1;
+   
+   
+
+}
+.pindex2{
+    
     font-size: 30px;
-    color: rgb(254, 254, 254);
+    
+    
     
 }
+    
+    
     
 
-.imgindex{
-    grid-area: main;
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    
-}
-.redesinicio{
-    border: 05px solid rgb(5, 5, 5);
-    border-radius: 100px; 
-    width: 150px;
-    height: 150px;
-}
-
-.footerindex{
-    background-color: rgba(6, 6, 6, 0.798);
-    padding: 25px;
-    display: flex;
-    justify-content: space-around;
-    grid-area: footer;
-}
-.pieindex{
-    color: rgb(251, 251, 250);
-    font-size: 15px;
-    font-family: 'Cormorant SC', serif ;
-    
-    font-weight: 900;  
-}
-
-@media screen and ( min-width: 1100px) {
-    .bodyindex {
-        background-image: url(https://img.freepik.com/foto-gratis/rastros-luz-sobre-edificios_1359-714.jpg?w=740&t=st=1660250209~exp=1660250809~hmac=2094534d4333edf7350a4bdc392ee846998921b4bd5058fc77e9b57dafc06131);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: left center;
-        
-        grid-template-areas:
-        "header  header header"
-        "article article article"
-        "main main main"
-        "footer footer footer";
-        grid-template-rows: 90px 90px 1fr 90px;
-        grid-template-columns: 1fr 1fr 1fr;
-        height: 100vh;
-        
-    }
-    .navindex{
-        display: flex;
-       
-    }
-
-    
-}
  
     
     
 
+
+
+
 /* productos */
-
-
-
 
 .bodyproductos{
     /* background-image: url(https://img.freepik.com/foto-gratis/fondo-imagen-brillo-patron-cielo-estrellado-purpura_53876-104751.jpg?w=740&t=st=1660413307~exp=1660413907~hmac=97bd22df2c7b50a6f2ce83aeb50cbe3956a51dc376f4e15ee20501ccc2a5d6a1); */
