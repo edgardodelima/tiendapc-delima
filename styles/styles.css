@@ -429,6 +429,9 @@ label{
  /* bootstrap */
 
  .letrah1{
+    position: relative;
+    left: 15px;
+    top: 5px;
     color: rgb(5, 3, 3);
     font-family: Georgia, 'Times New Roman', Times, serif;
  }
@@ -444,6 +447,8 @@ label{
 }
 
 .colorhead{
+    
+    
     background-image: linear-gradient( to top, rgb(194, 189, 189),rgb(231, 225, 225),rgb(219, 219, 101),rgb(20, 65, 20));
 }
 
