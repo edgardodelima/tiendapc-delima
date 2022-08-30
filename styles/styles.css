@@ -38,10 +38,44 @@
     
 }
 
+.bgcentrar{
+    background-image: linear-gradient( rgb(15, 15, 90),rgb(31, 39, 75),rgb(237, 232, 232));
+    padding: 30px;
+    
+}
+    
+    
+    
+.centrar{
+    text-align: center;
+    color: rgb(241, 241, 238);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.button{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.fondogris{
+    background-color: rgb(205, 205, 20);
+}
+
+
+
+   
+   
+    
+    
+    
+
+
 @media screen and (min-width:360px){
     .imgmain{
         flex-direction: column;
     }
+   
     
 }
     
