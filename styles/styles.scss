@@ -371,10 +371,14 @@
 .redes6:hover{
     color: rgb(243, 13, 13);
 }
-.fondocont8{
-    background-color: rgb(81, 85, 84);
-  
-  }
-
-
-
+.contacto8{
+    background-color: rgb(218, 29, 29);
+    .cont{
+        color: rgb(47, 47, 162);
+        &:hover{
+            color: black;
+            transition: 05s;
+        }
+    }
+}
+@import "./partials/header","./partials/footer"

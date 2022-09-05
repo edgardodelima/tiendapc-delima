@@ -283,5 +283,26 @@
 
 .redes6:hover {
   color: rgb(243, 13, 13);
-}/*# sourceMappingURL=styles.css.map */
+}
 
+.contacto8 {
+  background-color: rgb(218, 29, 29);
+}
+.contacto8 .cont {
+  color: rgb(47, 47, 162);
+}
+.contacto8 .cont:hover {
+  color: black;
+  transition: 5s;
+}
+
+.contacto8 {
+  background-color: rgb(218, 29, 29);
+}
+.contacto8 .cont {
+  color: rgb(47, 47, 162);
+}
+.contacto8 .cont:hover {
+  color: black;
+  transition: 5s;
+}/*# sourceMappingURL=styles.css.map */
