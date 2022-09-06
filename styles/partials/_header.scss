@@ -1,9 +1,10 @@
 
 // contacto!!
 .contacto8{
-    background-color: rgb(218, 29, 29);
+    background-color:$headercolorscontacto8;
+    border-bottom:$headercolorscontacto8;
     .cont{
-        color:$headercolors;
+        color:$headercolorsh1;
         &:hover{
             color: black;
             transition: 05s;

@@ -286,21 +286,11 @@
 }
 
 .contacto8 {
-  background-color: rgb(218, 29, 29);
+  background-color: 5px solid rgb(136, 15, 136);
+  border-bottom: 5px solid rgb(136, 15, 136);
 }
 .contacto8 .cont {
-  color: rgb(47, 47, 162);
-}
-.contacto8 .cont:hover {
-  color: black;
-  transition: 5s;
-}
-
-.contacto8 {
-  background-color: rgb(218, 29, 29);
-}
-.contacto8 .cont {
-  color: rgb(47, 47, 162);
+  color: rgb(8, 10, 10);
 }
 .contacto8 .cont:hover {
   color: black;
