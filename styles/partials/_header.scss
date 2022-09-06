@@ -3,7 +3,7 @@
 .contacto8{
     background-color: rgb(218, 29, 29);
     .cont{
-        color: rgb(47, 47, 162);
+        color:$headercolors;
         &:hover{
             color: black;
             transition: 05s;
