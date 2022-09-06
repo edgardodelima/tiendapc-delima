@@ -11,11 +11,7 @@
 
 .imgmain{
     text-align: center;
-    /* display: flex;
-    flex-direction: column;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 10px; */
+    
     
    
 }
@@ -32,7 +28,7 @@
 }
 .pindex2{
     
-    font-size: 30px;
+    font-size:$articlepindex2;
     text-align: center;
     
     
@@ -316,4 +312,4 @@
     color: rgb(243, 13, 13);
 }
 
-@import "./partials/colors","./partials/border","./partials/header","./partials/footer"
+@import "./partials/fonts","./partials/colors","./partials/border","./partials/header","./partials/footer"
