@@ -1,21 +1,22 @@
 .colorhead{
-    background-image: linear-gradient( to top, rgb(194, 189, 189),rgb(231, 225, 225),rgb(219, 219, 101),rgb(20, 65, 20));
+    background-image: $colorheadertodosloshtml;
 }
 .letrah1{
     position: relative;
     left: 15px;
     top: 5px;
-    color: rgb(5, 3, 3);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $letrah1todosloshtml ;
+    font-family: $letrah1;
 }
 
 
 .letranav{
-    color: rgb(7, 6, 6);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $letranavtodosloshtml;
+    font-family: $letranav;
     &:hover{
-        color: rgb(231, 15, 15);
+        color: $colorhovertodosloshtml;
         transition: 01s;
     }
      
 }
+

@@ -12,14 +12,14 @@
 
 .colorcontacto{
     
-     background-image: linear-gradient(to bottom, rgb(217, 214, 224),rgb(104, 121, 106),rgb(118, 118, 148),rgba(158, 157, 223, 0.966));
+     background-image: $colorarticle;
     .tabla{
         .bordesnegros{
            position: relative;
            text-align: center;
            .fontscont{
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            color: rgb(7, 7, 7);
+            font-family: $fontscont;
+            color: $articlefontscont;
            }
             
             
@@ -32,8 +32,8 @@
     text-align: center;
     padding: 10px;
     .terminos{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgb(7, 7, 7);
+        font-family: $terminosfontfamily;
+        color: $articleterminos;
     }
 }
 
@@ -61,8 +61,8 @@
     }
 
     .letrafdp{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgb(7, 7, 7);
+        font-family: $letrafdpfontfamily;
+        color: $letrafdparticle;
         text-align: center;
         
 

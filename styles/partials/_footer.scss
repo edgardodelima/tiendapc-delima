@@ -1,7 +1,7 @@
 .redes6{
-    font-size: 25px;
+    font-size: $redes6;
     padding: 05px;
     &:hover{
-        color: rgb(243, 13, 13);
+        color: $colorhover;
     }
 }

@@ -36,7 +36,7 @@
 }
 
 .colorcontacto {
-  background-image: linear-gradient(to bottom, rgb(217, 214, 224), rgb(104, 121, 106), rgb(118, 118, 148), rgba(158, 157, 223, 0.966));
+  background-image: linear-gradient(to bottom, rgb(179, 178, 182), rgb(104, 121, 106), rgb(118, 118, 148), rgba(158, 157, 223, 0.966));
 }
 .colorcontacto .tabla .bordesnegros {
   position: relative;
@@ -44,7 +44,7 @@
 }
 .colorcontacto .tabla .bordesnegros .fontscont {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: rgb(7, 7, 7);
+  color: rgb(8, 8, 8);
 }
 
 .condiciones {
@@ -133,7 +133,7 @@
 .letraaside {
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: rgb(7, 7, 7);
+  color: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   padding: 30px;
 }
@@ -143,6 +143,6 @@
   text-align: center;
 }
 .pdeenvios .rojofm {
-  color: rgb(202, 11, 11);
+  color: 20px;
   font-size: 20px;
 }/*# sourceMappingURL=styles.css.map */
