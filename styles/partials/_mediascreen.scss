@@ -1,10 +1,12 @@
 // index
+
 @media screen and (min-width:360px){
     .imgmain{
         flex-direction: column;
     }
    
 }
+
 
 // formas de pago
 
@@ -21,9 +23,6 @@
     
 } 
 
-
-
-
 @media screen and (min-width:800px) {
     .fdp{
         flex-direction: row;
@@ -35,4 +34,39 @@
     }
     
 } 
+
+
+
+
+// formas de envios
+
+@media screen and (min-width:360px) {
+    .flexfde{
+        flex-direction: column;
+
+    }
+    .asidefde{
+        flex-direction: column;
+        
+    }
+    .imgfde{
+        padding: 10px;
+    }
+    
+} 
+
+@media screen and (min-width:800px) {
+    .flexfde{
+        flex-direction: row;
+
+    }
+    .asidefde{
+        flex-direction: row;
+        
+    }
+    
+} 
+
+
+
     
