@@ -1,0 +1,85 @@
+//  index
+
+.pindex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+// contacto
+
+.colorcontacto{
+    background-color: rgba(7, 7, 10, 0.473);
+    .tabla{
+        .bordesnegros{
+           position: relative;
+           text-align: center;
+           .fontscont{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(7, 7, 7);
+           }
+            
+            
+        }
+    }
+}
+
+.condiciones{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    .terminos{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(7, 7, 7);
+    }
+}
+
+// formas de pago
+
+
+.fdp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 30px;
+    .encerrar{
+
+       
+        
+        .tarjeta{
+            width: 200px;
+            height: 200px;
+            border: 3px solid rgb(10, 10, 10);
+            border-radius: 30px;
+        }
+      }
+    }
+
+    .letrafdp{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(7, 7, 7);
+        text-align: center;
+        
+
+    }
+
+    // formas de envios
+
+    .flexfde{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 30px;
+        .divfde{
+            .imgfde{
+    
+                width: 300px;
+                height: 300px;
+                
+            }
+        }
+       }

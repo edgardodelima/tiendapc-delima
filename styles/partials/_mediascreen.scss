@@ -1,0 +1,38 @@
+// index
+@media screen and (min-width:360px){
+    .imgmain{
+        flex-direction: column;
+    }
+   
+}
+
+// formas de pago
+
+
+@media screen and (min-width:360px) {
+    .fdp{
+        flex-direction: column;
+
+    }
+    .asidefdp{
+        flex-direction: column;
+        
+    }
+    
+} 
+
+
+
+
+@media screen and (min-width:800px) {
+    .fdp{
+        flex-direction: row;
+
+    }
+    .asidefdp{
+        flex-direction: row;
+        
+    }
+    
+} 
+    

@@ -1,3 +1,152 @@
+.colorhead {
+  background-image: linear-gradient(to top, rgb(194, 189, 189), rgb(231, 225, 225), rgb(219, 219, 101), rgb(20, 65, 20));
+}
+
+.letrah1 {
+  position: relative;
+  left: 15px;
+  top: 5px;
+  color: rgb(5, 3, 3);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.letranav {
+  color: rgb(7, 6, 6);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.letranav:hover {
+  color: rgb(231, 15, 15);
+  transition: 1s;
+}
+
+.redes6 {
+  font-size: 25px;
+  padding: 5px;
+}
+.redes6:hover {
+  color: rgb(243, 13, 13);
+}
+
+.pindex1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.colorcontacto {
+  background-color: rgba(7, 7, 10, 0.473);
+}
+.colorcontacto .tabla .bordesnegros {
+  position: relative;
+  text-align: center;
+}
+.colorcontacto .tabla .bordesnegros .fontscont {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(7, 7, 7);
+}
+
+.condiciones {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+.condiciones .terminos {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(7, 7, 7);
+}
+
+.fdp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+.fdp .encerrar .tarjeta {
+  width: 200px;
+  height: 200px;
+  border: 3px solid rgb(10, 10, 10);
+  border-radius: 30px;
+}
+
+.letrafdp {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(7, 7, 7);
+  text-align: center;
+}
+
+.flexfde {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+}
+.flexfde .divfde .imgfde {
+  width: 300px;
+  height: 300px;
+}
+
+.imgmain {
+  text-align: center;
+}
+.imgmain .img1index {
+  width: 50%;
+  height: auto;
+}
+
+.pindex2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.bgcentrar {
+  background-image: linear-gradient(rgb(15, 15, 90), rgb(31, 39, 75), rgb(237, 232, 232));
+  padding: 30px;
+}
+
+.centrar {
+  text-align: center;
+  color: rgb(241, 241, 238);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.button {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.imgt {
+  width: 90%;
+  height: 50%;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.fondoimg {
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(73, 71, 71), rgb(212, 200, 200), rgb(77, 77, 114), rgb(124, 124, 74));
+}
+
+.letraaside {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  padding: 30px;
+}
+
+.pdeenvios {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.pdeenvios .rojofm {
+  color: rgb(202, 11, 11);
+  font-size: 20px;
+}
+
 .bgcentrar {
   background-image: linear-gradient(rgb(15, 15, 90), rgb(31, 39, 75), rgb(237, 232, 232));
   padding: 30px;
@@ -32,56 +181,6 @@
     flex-direction: column;
   }
 }
-.redes6 {
-  font-size: 25px;
-  padding: 5px;
-}
-.redes6:hover {
-  color: rgb(243, 13, 13);
-}
-
-.colorhead {
-  background-image: linear-gradient(to top, rgb(194, 189, 189), rgb(231, 225, 225), rgb(219, 219, 101), rgb(20, 65, 20));
-}
-
-.letrah1 {
-  position: relative;
-  left: 15px;
-  top: 5px;
-  color: rgb(5, 3, 3);
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.letranav {
-  color: rgb(7, 6, 6);
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-.letranav:hover {
-  color: rgb(231, 15, 15);
-  transition: 1s;
-}
-
-.pindex1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.imgmain {
-  text-align: center;
-}
-.imgmain .img1index {
-  width: 50%;
-  height: auto;
-}
-
-.pindex2 {
-  font-size: 20px;
-  text-align: center;
-}
-
 .colorcontacto {
   background-color: rgba(7, 7, 10, 0.473);
 }

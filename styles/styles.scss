@@ -1,7 +1,7 @@
 
 
 
-@import "./partials/header";
+@import "./partials/header","./partials/footer","./partials/article","./partials/main","./partials/aside";
 
 .bgcentrar{
     background-image: linear-gradient( rgb(15, 15, 90),rgb(31, 39, 75),rgb(237, 232, 232));
@@ -54,65 +54,20 @@
     
 }
 
-// footer odas las paginas
-
-.redes6{
-    font-size: 25px;
-    padding: 05px;
-    &:hover{
-        color: rgb(243, 13, 13);
-    }
-}
-
-// header todas las paginas
-
-.colorhead{
-    background-image: linear-gradient( to top, rgb(194, 189, 189),rgb(231, 225, 225),rgb(219, 219, 101),rgb(20, 65, 20));
-}
-.letrah1{
-    position: relative;
-    left: 15px;
-    top: 5px;
-    color: rgb(5, 3, 3);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 
-.letranav{
-    color: rgb(7, 6, 6);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    &:hover{
-        color: rgb(231, 15, 15);
-        transition: 01s;
-    }
-     
-}
 
 
-// article index
 
-.pindex1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
-// main index
 
-.imgmain{
-    text-align: center;
-    .img1index{
-        width: 50%;
-        height: auto;
-        
-    }
-}
-.pindex2{
-    font-size: 20px;
-    text-align: center;
-}
+
+
+
+
+
+
+
 
 // contacto
 .colorcontacto{
