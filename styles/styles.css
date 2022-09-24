@@ -88,17 +88,13 @@
   height: 300px;
 }
 
-.imgmain {
-  text-align: center;
-}
 .imgmain .img1index {
-  width: 50%;
-  height: auto;
+  width: 300px;
+  height: 300px;
 }
 
 .pindex2 {
-  font-size: 20px;
-  text-align: center;
+  font-size: 12px;
 }
 
 .bgcentrar {
@@ -145,4 +141,40 @@
 .pdeenvios .rojofm {
   color: 20px;
   font-size: 20px;
+}
+
+@media screen and (min-width: 360px) {
+  .fdp {
+    flex-direction: column;
+  }
+  .asidefdp {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 800px) {
+  .fdp {
+    flex-direction: row;
+  }
+  .asidefdp {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 360px) {
+  .flexfde {
+    flex-direction: column;
+  }
+  .asidefde {
+    flex-direction: column;
+  }
+  .imgfde {
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .flexfde {
+    flex-direction: row;
+  }
+  .asidefde {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=styles.css.map */

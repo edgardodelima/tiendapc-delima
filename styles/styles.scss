@@ -5,6 +5,73 @@
 
 
 
+@media screen and (min-width:360px){
+    .imgmain{
+        
+        
+    }
+   
+}
+
+
+// formas de pago
+
+
+@media screen and (min-width:360px) {
+    .fdp{
+        flex-direction: column;
+
+    }
+    .asidefdp{
+        flex-direction: column;
+        
+    }
+    
+} 
+
+@media screen and (min-width:800px) {
+    .fdp{
+        flex-direction: row;
+
+    }
+    .asidefdp{
+        flex-direction: row;
+        
+    }
+    
+} 
+
+
+
+
+// formas de envios
+
+@media screen and (min-width:360px) {
+    .flexfde{
+        flex-direction: column;
+
+    }
+    .asidefde{
+        flex-direction: column;
+        
+    }
+    .imgfde{
+        padding: 10px;
+    }
+    
+} 
+
+@media screen and (min-width:800px) {
+    .flexfde{
+        flex-direction: row;
+
+    }
+    .asidefde{
+        flex-direction: row;
+        
+    }
+    
+} 
 
 
 
