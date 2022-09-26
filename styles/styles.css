@@ -139,18 +139,6 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.imgt {
-  width: 90%;
-  height: 50%;
-  padding: 20px;
-  border-radius: 40px;
-}
-
-.fondoimg {
-  text-align: center;
-  background-image: linear-gradient(to bottom, rgb(73, 71, 71), rgb(212, 200, 200), rgb(77, 77, 114), rgb(124, 124, 74));
-}
-
 .letraaside {
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
