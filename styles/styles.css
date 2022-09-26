@@ -1,17 +1,17 @@
 .colorhead {
-  background-image: linear-gradient(to top, rgb(194, 189, 189), rgb(231, 225, 225), rgb(219, 219, 101), rgb(20, 65, 20));
+  background-image: linear-gradient(to top, rgb(177, 174, 174), rgb(209, 206, 206), rgb(224, 224, 214), rgb(191, 199, 191));
 }
 
 .letrah1 {
   position: relative;
   left: 15px;
   top: 5px;
-  color: rgb(5, 3, 3);
+  color: rgb(36, 35, 35);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .letranav {
-  color: rgb(7, 6, 6);
+  color: rgb(37, 37, 37);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .letranav:hover {
@@ -33,6 +33,8 @@
   align-items: center;
   padding: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(250, 247, 244);
+  background-color: rgba(8, 7, 7, 0.781);
 }
 
 .colorcontacto {
@@ -88,13 +90,36 @@
   height: 300px;
 }
 
-.imgmain .img1index {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imgmain {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.productos {
+  flex: 40%;
+  padding: 20px;
+  text-align: center;
+}
+
+.img1index {
+  border-radius: 30px;
+  border: 2px solid rgb(31, 29, 29);
   width: 300px;
   height: 300px;
 }
 
 .pindex2 {
-  font-size: 12px;
+  color: rgb(253, 250, 250);
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .bgcentrar {
@@ -177,4 +202,10 @@
   .asidefde {
     flex-direction: row;
   }
+}
+.bodyindex {
+  background-image: url(https://img.freepik.com/foto-gratis/configuracion-teclado-juegos-angulo-alto_52683-88572.jpg?w=360&t=st=1664225425~exp=1664226025~hmac=e355207b1035ca0249aa85c1c05e62c64e76d5a4141a739f135f9f9076d041f1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
 }/*# sourceMappingURL=styles.css.map */
