@@ -134,6 +134,23 @@
   font-size: 20px;
 }
 
+.fondotienda {
+  background-color: rgb(12, 11, 11);
+}
+
+.reducir {
+  width: 1200px;
+  height: 540px;
+}
+
+.tienda1 {
+  text-align: center;
+}
+
+.coloroscuro {
+  background-color: rgba(12, 11, 11, 0.829);
+}
+
 .bgcentrar {
   background-image: linear-gradient(rgb(15, 15, 90), rgb(31, 39, 75), rgb(237, 232, 232));
   padding: 30px;
