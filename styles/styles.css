@@ -1,17 +1,17 @@
 .colorhead {
-  background-image: linear-gradient(to top, rgb(177, 174, 174), rgb(209, 206, 206), rgb(224, 224, 214), rgb(191, 199, 191));
+  background-image: linear-gradient(to top, rgb(54, 53, 53), rgb(14, 13, 13), rgb(36, 36, 35), rgb(3, 27, 3));
 }
 
 .letrah1 {
   position: relative;
   left: 15px;
   top: 5px;
-  color: rgb(36, 35, 35);
+  color: rgb(250, 248, 248);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .letranav {
-  color: rgb(37, 37, 37);
+  color: rgb(253, 252, 252);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .letranav:hover {
@@ -97,6 +97,10 @@
 }
 
 .imgmain {
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-futurista-degradado-concepto-conexion_23-2149110796.jpg?w=826&t=st=1664246221~exp=1664246821~hmac=cb463f9247e0a453f52a9037bc3e876472e12aecc04f8fa6c3bd7d1443f537ca);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -110,6 +114,7 @@
 }
 
 .img1index {
+  background-position: left center;
   border-radius: 30px;
   border: 2px solid rgb(31, 29, 29);
   width: 300px;
@@ -120,6 +125,13 @@
   color: rgb(253, 250, 250);
   font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.colorp {
+  color: rgb(245, 7, 7);
+  background-color: rgb(228, 226, 226);
+  border-radius: 20px;
+  font-size: 20px;
 }
 
 .bgcentrar {
@@ -190,10 +202,4 @@
   .asidefde {
     flex-direction: row;
   }
-}
-.bodyindex {
-  background-image: url(https://img.freepik.com/foto-gratis/configuracion-teclado-juegos-angulo-alto_52683-88572.jpg?w=360&t=st=1664225425~exp=1664226025~hmac=e355207b1035ca0249aa85c1c05e62c64e76d5a4141a739f135f9f9076d041f1);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left center;
 }/*# sourceMappingURL=styles.css.map */
