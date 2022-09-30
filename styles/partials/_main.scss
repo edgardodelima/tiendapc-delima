@@ -65,6 +65,8 @@
     
 }
 
+// tienda
+
 .fondotiendamain{
     background-color: rgb(12, 11, 11);
 }
@@ -81,6 +83,27 @@
 .coloroscuro{
     background-color: rgba(12, 11, 11, 0.829);
 }
+.colort{
+    color: rgb(250, 249, 249);
+    font-size: 20px;
+}
+
+@media screen and (max-width:360px) {
+    .fondotiendamain{
+        flex-direction: column;
+
+    }
+    .reducir{
+        width: 360px;
+        height: 300px;
+    }
+    .colort{
+        font-size: 5px;
+    }
+    
+   
+    
+} 
     
 
 

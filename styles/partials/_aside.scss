@@ -22,11 +22,14 @@
 
 
 // formas de pago
+.asidefdp{
+    background-color: rgba(7, 6, 6, 0.842);
+}
 
 .letraaside{
     font-size: 20px;
     font-family: $letraaside;
-    color: $letraaside;
+    color: aliceblue;
     text-align: center;
     padding: 30px;
 }
@@ -35,10 +38,13 @@
 
 
 .pdeenvios{
+    background-color: rgba(14, 13, 13, 0.945);
+    color: rgb(245, 248, 250);
     font-family: $pdeenvios;
     text-align: center;
     .rojofm{
-        color: $rojofm;
+        color: rgb(233, 22, 22);
+        
         font-size: $rojofm;
     }
    }

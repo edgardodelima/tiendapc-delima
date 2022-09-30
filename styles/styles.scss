@@ -12,12 +12,16 @@
 
 @media screen and (min-width:360px) {
     .fdp{
+        display: flex;
         flex-direction: column;
 
     }
     .asidefdp{
         flex-direction: column;
         
+    }
+    .encerrar{
+        padding: 10px;
     }
     
 } 
