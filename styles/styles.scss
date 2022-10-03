@@ -10,7 +10,7 @@
 // formas de pago
 
 
-@media screen and (min-width:360px) {
+@media screen and (max-width:360px) {
     .fdp{
         display: flex;
         flex-direction: column;
@@ -23,6 +23,7 @@
     .encerrar{
         padding: 10px;
     }
+   
     
 } 
 

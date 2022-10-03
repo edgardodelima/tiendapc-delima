@@ -1,5 +1,5 @@
 .colorhead {
-  background-image: linear-gradient(to top, rgb(180, 176, 176), rgb(207, 163, 163), rgb(245, 245, 200), rgb(227, 231, 227));
+  background-image: linear-gradient(to bottom, rgb(78, 116, 173), rgb(119, 146, 158), rgb(72, 121, 121), rgb(170, 195, 219));
 }
 
 .letrah1 {
@@ -37,14 +37,19 @@
   background-color: rgba(8, 7, 7, 0.781);
 }
 
-.colorcontacto {
-  background-image: linear-gradient(to bottom, rgb(179, 178, 182), rgb(104, 121, 106), rgb(118, 118, 148), rgba(158, 157, 223, 0.966));
+.fondocont8 {
+  background-image: url(https://img.freepik.com/free-vector/technology-background-abstract-style_23-2147826008.jpg?w=740&t=st=1664653090~exp=1664653690~hmac=b22b6c150c3da7d16fa912c69823df04eb129af8093f31618ee18e7a7e9b0a36);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
 }
+
 .colorcontacto .tabla .bordesnegros {
   position: relative;
   text-align: center;
 }
 .colorcontacto .tabla .bordesnegros .fontscont {
+  font-size: 25px;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(8, 8, 8);
 }
@@ -113,10 +118,34 @@
   justify-content: space-around;
   padding: 30px;
 }
-.flexfde .divfde .imgfde {
+
+.imgfde {
   width: 300px;
   height: 300px;
   border-radius: 100px;
+  transition: all 1s ease-in;
+}
+
+.imgfde:hover {
+  width: 330px;
+  height: 330px;
+}
+
+.divfde {
+  display: flex;
+  flex-direction: column;
+}
+
+.lboton {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.lboton:hover {
+  color: rgb(218, 13, 13);
+}
+
+.botonfde {
+  border-radius: 50px;
 }
 
 * {
@@ -148,6 +177,12 @@
   border: 2px solid rgb(31, 29, 29);
   width: 300px;
   height: 300px;
+  transition: all 1s;
+}
+
+.img1index:hover {
+  width: 320px;
+  height: 320px;
 }
 
 .pindex2 {
@@ -197,6 +232,16 @@
     font-size: 5px;
   }
 }
+.mapa {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.774);
+  text-align: center;
+}
+
+.blanco {
+  color: rgb(228, 232, 236);
+}
+
 .bgcentrar {
   background-image: linear-gradient(rgb(15, 15, 90), rgb(31, 39, 75), rgb(237, 232, 232));
   padding: 30px;
@@ -237,7 +282,7 @@
   font-size: 25px;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 360px) {
   .fdp {
     display: flex;
     flex-direction: column;

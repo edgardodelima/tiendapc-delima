@@ -11,15 +11,23 @@
 }
 
 // contacto
+.fondocont8{
+    background-image: url(https://img.freepik.com/free-vector/technology-background-abstract-style_23-2147826008.jpg?w=740&t=st=1664653090~exp=1664653690~hmac=b22b6c150c3da7d16fa912c69823df04eb129af8093f31618ee18e7a7e9b0a36);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+
+}
 
 .colorcontacto{
     
-     background-image: $colorarticle;
+    
     .tabla{
         .bordesnegros{
            position: relative;
            text-align: center;
            .fontscont{
+            font-size: 25px;
             font-family: $fontscont;
             color: $articlefontscont;
            }
@@ -110,13 +118,40 @@
         flex-direction: row;
         justify-content: space-around;
         padding: 30px;
-        .divfde{
-            .imgfde{
-    
-                width: 300px;
-                height: 300px;
-                border-radius: 100px;
-                
-            }
-        }
+        
        }
+
+.imgfde{
+    
+   width: 300px;
+   height: 300px;
+   border-radius: 100px;
+   transition: all 1s ease-in;
+        
+        
+}
+
+
+.imgfde:hover{
+    width: 330px;
+    height: 330px;
+
+} 
+
+.divfde{
+    display: flex;
+    flex-direction: column;
+}
+.lboton{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lboton:hover{
+    color: rgb(218, 13, 13);
+}
+
+.botonfde{
+    border-radius: 50px;
+}
+
+
+
